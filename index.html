@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="index.css">
+<html>
+    <body>
+        <h1 id="Header">BMI Calculator</h1>
+        <p id="para">BMI is the calculation of the numerical value of your weight by (height*height)to determine weather you are <span id="uwt"><b>Underweight</b></span> , <span id="pwt"><b>Perfect Body Fat</b></span> or <span id ="owt">OverWeight</span>.</p>
+    <div class="calculator">
+        <p id="heightt"><b>Height(Cm): </b></p><input type="text" id="height">
+        <p id="weightt"><b>Weight(Kg): </b></p><input type="text" id="weight">
+        <p id="bmit">BMI</p>
+        <p id="result"></p>
+    </div>
+    <div id="underweight">
+        <p id="utt"><b> Underweight</b> </p>
+        <p id="uv"> 0-18.6 </p>
+    </div>
+    <div id="perfect">
+        <p id="ptt"> <b>Perfect</b></p>
+        <p id="pv"> 18.6-25.1 </p>
+    </div>
+    <div id="overweight">
+        <p id="ot"> <b>Overweight</b> </p>
+        <p id="ov"> 25.1-35 </p>
+    </div>
+    <button id="btn">Calculate</button>
+    <script>
+        var btn= document.getElementById('btn')
+function output(){
+    var height= parseFloat(document.getElementById('height').value)
+    var weight= parseFloat(document.getElementById('weight').value)
+    height /= 100;
+    bmi= weight/(height*height)
+
+    document.getElementById("result").textContent = bmi;
+    
+}
+addEventListener("click", output)
+    </script>
+    </body>
+</html>

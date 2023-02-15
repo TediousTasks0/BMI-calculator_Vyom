@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(86, 149, 222);
+}
+#Header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
+    color: white;
+    font-size: 50px;
+}
+#para{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+     color: white;
+}
+#uwt{
+    color: rgb(236, 15, 159);
+}
+#pwt{
+    color: rgb(121, 249, 121);
+}
+#owt{
+    color: rgb(255, 225, 55)
+}
+.calculator{
+    text-align: center;
+    background-color: white;
+    color:rgb(86, 149, 222) ;
+    width:400px;
+    height: 400px;
+    position: absolute;
+    left:35%;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#weightt{
+    padding: 10px;
+}
+#heightt{
+    padding: 10px;
+}
+#bmit{
+    padding: 10px;
+    font-size: 30px;
+}
+#result{
+    font-size: 40px;
+}
+#height{
+    
+    border-color: rgb(86, 149, 222);
+    width:150px;
+    height:23px;
+}
+#weight{
+    
+    border-color: rgb(86, 149, 222);
+    width:150px;
+    height:23px;
+
+}
+#btn{
+    top: 90%;
+    position: absolute;
+    right:44%;
+    width:200px;
+    height: 50px;
+    border-color: rgb(86, 149, 222);
+    border-radius: 15px;
+}
+#underweight{
+    background-color:rgb(236, 15, 159);
+    color:white;
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    border-radius: 10px;
+    top:30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#perfect{
+    background-color:rgb(121, 249, 121);
+    color:white;
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+    position: absolute;
+    top:50%;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+#overweight{
+    background-color:rgb(255, 225, 55);
+    top: 70%;
+    color:white;
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
