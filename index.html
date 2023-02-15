@@ -31,7 +31,7 @@ function output(){
     height /= 100;
     bmi= weight/(height*height)
 
-    document.getElementById("result").textContent = bmi;
+    document.getElementById("result").textContent = bmi.toFixed(2);
     
 }
 addEventListener("click", output)
